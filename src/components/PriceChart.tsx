@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import React from "react";
@@ -29,6 +30,8 @@ export default function PriceChart({ historical, forecast, crop }: Props) {
   // Format date for better readability
   const formatDate = (date: string) => {
     if (date.startsWith("Day+")) return date;
+
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [day, month, year] = date.split("/");
     return `${day}/${month}`; // Truncate to DD/MM for historical data
   };
