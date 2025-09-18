@@ -22,8 +22,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className="hidden md:inline-block text-sm font-medium text-white
                  hover:text-yellow-200 hover:underline underline-offset-4
                  transition-colors duration-200"
-      target="_blank"
-      rel="noopener noreferrer"
     >
       Home
     </Link>
