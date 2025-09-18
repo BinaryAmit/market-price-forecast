@@ -18,7 +18,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               Market Price Forecast
             </h1>
             <Link
-      href="https://crop-yield-predictor-complete-websi.vercel.app/"
+              href="https://ai-crop-recommendation-iota.vercel.app/"
       className="hidden md:inline-block text-sm font-medium text-white
                  hover:text-yellow-200 hover:underline underline-offset-4
                  transition-colors duration-200"
